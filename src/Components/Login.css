@@ -1,0 +1,80 @@
+
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .imgcar {
+    position: relative;
+    width: 40%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .caro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .insta-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .mockup-img {
+    max-width: 200%;
+    max-height: 200%;
+    margin-top: 6rem;
+    margin-right: 6rem;
+  }
+  
+  .login-form {
+    margin-left: 20px;
+    width: 30%;
+  }
+  
+  .email,
+  .password {
+    margin: 2rem;
+  }
+  
+  .typo {
+    text-align: center;
+  }
+  
+  .link2 {
+    color: #3f51b5;
+  }
+
+  .logo>img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 176px 186px; width: 120px; height: auto;
+    margin-left: 6.5rem;
+  }
+ 
+
+
+
+
+@media only screen and (max-width: 749px) {
+   
+    .login-form
+    {
+        flex-basis: 70vw !important;
+    }
+  }
+  @media only screen and (max-width: 750px) {
+      .imgcar{
+          display: none;
+      }
+  }

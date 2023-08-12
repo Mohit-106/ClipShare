@@ -101,12 +101,12 @@ export default function Profile() {
                   {userData?.fullName}
                 </Typography>
                 <div className='post-cal'>
-                  <Typography display='inline' align='center' variant='subtitle1' className={classes.tfw}>
+                  {/* <Typography display='inline' align='center' variant='subtitle1' className={classes.tfw}>
                     No of Posts
-                  </Typography>
-                  <Typography display='inline' align='center' variant='subtitle1' className={classes.tfw2} >
-                    {userData?.postIds?.length || 0} Posts
-                  </Typography>
+                  </Typography> */}
+                  {/* <Typography display='inline' align='center' variant='subtitle1' className={classes.tfw2} >
+                    {userData?.postIds?.length}
+                  </Typography> */}
                 </div>
                 <div className='post-cal'>
                   <Typography display='inline' align='center' variant='subtitle1' className={classes.tfw}>

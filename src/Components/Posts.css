@@ -2,6 +2,13 @@
 {
     height: 80vh;
 } */
+
+.u-name{
+    margin-top:0.5rem;
+    margin-left: 0.5rem;
+    color: white;
+}
+
 .video-styles2
 {
     height: 80vh;
@@ -119,7 +126,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 5rem;
+    margin-left: 3rem;
     gap: 0;
 }
 

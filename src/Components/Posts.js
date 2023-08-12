@@ -159,8 +159,10 @@ export default function Posts({ userData = null }) {
                 <div className="post-info">
                   <div className="fa">
                     <Avatar src={post.uProfile}></Avatar>
+                   
+                    <div className="u-name"> {post.uName}</div>
                   </div>
-                  {/* <div className="u-name"><h4>{post.uName}</h4></div> */}
+                  
 
                   <div className="lk">
                     <Likes userData={userData} postData={post} />

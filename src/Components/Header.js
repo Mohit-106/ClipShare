@@ -82,7 +82,7 @@ export default function Header(props) {
   const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
   const { logout,currentUser } = useAuth();
  const handleNavigation = ()=>{
-  var win = window.open('');
+  var win = window.open('https://github.com/Mohit-106/ClipShare');
   win.focus();
  }
   const handleProfileMenuOpen = (event) => {

@@ -27,6 +27,7 @@ export function AuthProvider({ children }) {
   function updatePassword(password) {
     return currentUser.updatePassword(password)
   }
+  //it will only run once
   useEffect(() => {
     // event listener 
     const unsubscribe = auth.onAuthStateChanged(user => {
@@ -35,7 +36,7 @@ export function AuthProvider({ children }) {
       setLoading(false)
     })
     return unsubscribe
-  }, [])
+  },[])
   const value = {
     currentUser,
     login,

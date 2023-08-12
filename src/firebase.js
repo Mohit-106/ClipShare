@@ -3,13 +3,13 @@ import "firebase/auth"
 import 'firebase/firestore'
 import 'firebase/storage'
 firebase.initializeApp({
-  apiKey: "AIzaSyATw7sWaaFpyzh_rihFoC7EU3QmqlYXOko",
-  authDomain: "reels-ee19f.firebaseapp.com",
-  projectId: "reels-ee19f",
-  storageBucket: "reels-ee19f.appspot.com",
-  messagingSenderId: "56240202632",
-  appId: "1:56240202632:web:7a87050ce6b848a53a903d",
-  measurementId: "G-EY79ZY2QCP"
+  apiKey: "AIzaSyDu7NaGhsK4HemW7nOTgC7rV9hhCJ1sA9c",
+  authDomain: "insta-bec1d.firebaseapp.com",
+  projectId: "insta-bec1d",
+  storageBucket: "insta-bec1d.appspot.com",
+  messagingSenderId: "675925663160",
+  appId: "1:675925663160:web:813a71df0f768d367e834d",
+  measurementId: "G-R6JW0ESFET"
 })
 export const auth = firebase.auth();
 const firestore = firebase.firestore();
